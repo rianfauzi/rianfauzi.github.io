@@ -4,7 +4,6 @@
 /* End New Font */
 /* Start Body */
 body{
-    background:url(".images/media santri.jpg");
     color: black;
     font-family: 'Times New Roman', Arial, serif;
     font-size: 15px;
@@ -203,7 +202,7 @@ h6{
 /* End Main */
 /* Start Box */
 .box-head {
-    background-color: rgb(90, 158, 83);
+    background-color: rgba(91, 158, 83, 0.973);
     border: 1px solid rgb(14, 82, 8);
     border-radius: 3px 3px 0 0;
     margin: 0;
@@ -216,12 +215,12 @@ h6{
 }
 
 .box-isi {
-    background-color: rgb(125, 167, 168);
+    background-color: rgba(125, 167, 168, 0.651);
     border: 1px solid rgb(14, 82, 8);
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-    font-family: 'Times New Roman';
+    font-family: 'Roboto';
     text-align: justify;
 }
 .box-isi img {
