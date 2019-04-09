@@ -1,0 +1,476 @@
+/* Start New Font */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/* End New Font */
+/* Start Body */
+body{
+    background:url(".images/media santri.jpg");
+    color: black;
+    font-family: 'Times New Roman', Arial, serif;
+    font-size: 15px;
+    line-height: 1,5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-black-grad {
+    background: linear-gradient(to right, white , black, white);
+}
+.bg-blue{
+    background-color:rgb(91, 91, 233);
+    color:rgb(10, 8, 22);
+    text-shadow: black 0 -1px;
+}
+.bg-white{
+    background-color:white;
+    text-align: justify;
+	font-family: 'lucida sans';
+}
+.bg-black{
+    background: rgba(0, 0, 0, 0.973);
+    color: Orange;
+	padding:10px 0px;
+}
+.bg-pict{
+    background: url('images/sh.jpg');
+    color: black;
+}
+.bg-wg{
+    background-color:rgb(255, 255, 255);
+    border:3px solid rgb(58, 197, 45);
+    border-radius: 2px;
+    padding: 10px 0px;
+  }
+/* End Debug */
+
+/* Start Container */
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.full-container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+.mini-container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 45%;
+}
+
+
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    text-align: center;
+    background-color: rgba(0, 162, 255, 0.781);
+    border-radius: 10px;
+    box-shadow: 
+        0px 3px 5px -1px rgba(8, 9, 17, 0.904),
+        0px 6px 10px 0px rgba(0, 38, 255, 0.904),
+        0px 1px 18px 0px rgba(1, 2, 8, 0.904);
+}
+
+.menu-primer li {
+    border-right: 2px solid rgb(43, 41, 41);
+    display : inline-block;
+    margin: 4px -5px;
+}
+
+.menu-primer a {
+    text-align: center;
+    color:rgb(36, 33, 33);
+    font-size: 18px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 5px 9.5px;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+
+.menu-primer a:hover {
+    background-color: rgb(37, 35, 35);
+    color:rgb(102, 102, 231);
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: rgb(37, 35, 35);
+    color:rgb(102, 102, 231);
+    text-decoration: none;
+}
+/* End Menu Primer */
+
+/* Start Hyperlink */
+a:link,
+a:visited {
+    font-family: 'Oswald';
+    color:rgb(196, 84, 10);
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    color:rgb(102, 102, 231);
+    text-decoration: none;
+}
+/* Start Hyperlink */
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28x;
+}
+h2{
+    font-size: 24x;
+}
+h3{
+    font-size: 15x;
+}
+h4{
+    font-size: 13x;
+}
+h5{
+    font-size: 12x;
+}
+h6{
+    font-size: 11x;
+}
+/* Start Heading */
+/* Start Jumbotron */
+.jumbotron{
+    background-color: rgb(102, 102, 238);
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 1px 0px;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+    margin: 0;
+}
+.jumbotron h3{
+    font-size: 14px;
+    padding: 0 15px;
+    margin: 0;
+}
+.jumbotron h2{
+    font-size: 20px;
+    padding: 0 20px;
+    margin: 0;
+}
+/* End Jumbotron */
+
+/* Start Main */
+.main-home-one{
+    float: left;
+    width: 49.5%;
+}
+.main-home-two{
+    float: right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height : 100px;
+}
+
+.main-home-three{
+    float: left;
+    width: 49.5%;
+}
+.main-home-four{
+    float: right;
+    width: 49.5%;
+}
+.main-home-three .box-isi,
+.main-home-four .box-isi{
+    height : 325px;
+}
+/* End Main */
+/* Start Box */
+.box-head {
+    background-color: rgb(90, 158, 83);
+    border: 1px solid rgb(14, 82, 8);
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-head h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: rgb(125, 167, 168);
+    border: 1px solid rgb(14, 82, 8);
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    font-family: 'Times New Roman';
+    text-align: justify;
+}
+.box-isi img {
+    vertical-align: middle;
+}
+/* End Box */
+/* Start mp3 Table */
+.mp3-tabel{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+.mp3-tabel th{
+    background-color:rgb(65, 129, 182);
+}
+.mp3-tabel td{
+    text-align: center;
+}
+/* End mp3 Table */
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea{
+    font-size: 14px;
+    padding: 10px;
+    font-family: 'Oswald'
+}
+input::placeholder,
+textarea::placeholder{
+    color:gray;
+    font-weight: 300;
+}
+input[type="submit"]{
+    background-color: aliceblue;
+    background-image: linear-gradient(-180deg,rgb(102, 176, 245)0%,rgb(16, 71, 134)90%);
+    border: 1px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+/* Start Request Form */
+.contact-form div {
+    margin:20px 0;
+}
+/* Start Request Form */
+
+/* Start Menu Sekunder */
+.menu-sekunder{
+    background-color: rgba(157, 226, 151, 0.575);
+    border-bottom: 1px solid rgb(34, 94, 28);
+    border-bottom: 1px solid rgb(34, 94, 28);
+    overflow: auto;
+    padding : 10px 0;
+    font-family: 'PT sans Narrow';
+}
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+
+.menu-sekunder-satu,
+.menu-sekunder-dua,
+.menu-sekunder-tiga{
+    float: left;
+}
+.menu-sekunder-satu{
+    width: 35%;
+}
+.menu-sekunder-dua{
+    width: 35%;
+}
+.menu-sekunder-tiga{
+    width: 30%
+}
+.menu-sekunder li img{
+    vertical-align: middle;
+}   
+/* End Menu Sekunder */
+/* Start Copyright */
+.copyright p{
+    font-size: 15px;
+}
+/* End Copyright */
+/* Start halaman vidio */
+
+/* End halaman vidio */
+/* Profile CSS */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.snip1118 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #ffffff;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1118 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+figure.snip1118 img {
+  max-width: 100%;
+  position: relative;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+figure.snip1118 h3 {
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+  top: 0;
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  padding: 12px 15px;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: #000000;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1118 h3 span {
+  font-weight: 800;
+}
+figure.snip1118 > div {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding: 8px 12px;
+  background: #000000;
+  text-align: right;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip1118 > div a i {
+  font-size: 24px;
+  color: #ffffff;
+  padding: 0px 8px;
+  position: relative;
+  bottom: -60px;
+}
+figure.snip1118 a {
+  opacity: 0.8;
+  -webkit-transition-property: none;
+  transition-property: none;
+}
+figure.snip1118 a:hover {
+  opacity: 1;
+}
+figure.snip1118.blue h3 {
+  background: #20638f;
+}
+figure.snip1118.blue > div {
+  background-color: #20638f;
+}
+figure.snip1118.red h3 {
+  background: #962d22;
+}
+figure.snip1118.red > div {
+  background-color: #962d22;
+}
+figure.snip1118.yellow h3 {
+  background: #c87f0a;
+}
+figure.snip1118.yellow > div {
+  background-color: #c87f0a;
+}
+figure.snip1118:hover img,
+figure.snip1118.hover img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+figure.snip1118:hover h3,
+figure.snip1118.hover h3 {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+}
+figure.snip1118:hover > div,
+figure.snip1118.hover > div {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+figure.snip1118:hover > div a i,
+figure.snip1118.hover > div a i {
+  bottom: 0;
+}
+figure.snip1118:hover a:first-child i,
+figure.snip1118.hover a:first-child i {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip1118:hover a:nth-child(2) i,
+figure.snip1118.hover a:nth-child(2) i {
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+figure.snip1118:hover a:nth-child(3) i,
+figure.snip1118.hover a:nth-child(3) i {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+/* End Profile CSS*/
